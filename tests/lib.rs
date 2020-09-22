@@ -1,4 +1,4 @@
-use k_pro::*;
+use k_pro::{echo, echo_str};
 
 #[test]
 fn test_echo() {
