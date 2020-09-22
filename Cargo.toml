@@ -1,9 +1,6 @@
 [package]
 name = "k_pro"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Yuki Chiyokawa <yuki@chiyokawa-bunko.com>"]
 edition = "2018"
 license = "MIT"
-
-[dependencies]
-proconio = "*"

@@ -1,7 +1,12 @@
-use k_pro::math::Natural;
+use k_pro::*;
 
 #[test]
-fn hoge() {
-    assert_eq!(120, 5u32.fact());
-    assert_eq!(3, 9u32.gcd(12u32));
+fn test_echo() {
+    let a = echo_str!(16, 32);
+    assert_eq!(a, "16 32");
+    let a = echo_str!("Yes");
+    assert_eq!(a, "Yes");
+
+    let count = 0;
+    echo!("THERE IS", count, "PROBLEMS");
 }
