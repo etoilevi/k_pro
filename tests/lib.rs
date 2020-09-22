@@ -2,6 +2,8 @@ use k_pro::{echo, echo_str};
 
 #[test]
 fn test_echo() {
+    let a = echo_str!();
+    assert_eq!(a, "");
     let a = echo_str!(16, 32);
     assert_eq!(a, "16 32");
     let a = echo_str!("Yes");

@@ -6,7 +6,7 @@ pub mod prelude;
 macro_rules! echo_str {
     ( $( $x:expr ),* ) => {
         {
-            let mut s = vec![];
+            let mut s: Vec<String> = vec![];
             $(
                 s.push($x.to_string());
             )*
