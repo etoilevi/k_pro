@@ -1,5 +1,6 @@
 pub mod io;
 pub mod math;
+pub mod search;
 pub mod prelude;
 
 #[macro_export]
